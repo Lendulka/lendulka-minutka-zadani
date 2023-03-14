@@ -54,9 +54,14 @@ body {
 
 .button {
   height: 2rem;
-  width: 5rem
+  width: 5rem;
+  cursor: pointer
 }
 
-.start {
-  margin-right: 0.2rem;
+.container--buttons {
+  display: flex;
+  width: 16rem;
+  height: 3rem;
+  justify-content: space-between;
+  align-items: center
 }
